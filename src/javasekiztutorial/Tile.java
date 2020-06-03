@@ -1,4 +1,4 @@
-package ozkan;
+package javasekiztutorial;
 
 import java.awt.Color;
 

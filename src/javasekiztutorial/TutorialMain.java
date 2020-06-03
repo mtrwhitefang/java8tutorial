@@ -1,4 +1,4 @@
-package ozkan;
+package javasekiztutorial;
 
 import java.awt.Color;
 import java.awt.Graphics;
@@ -8,13 +8,11 @@ import java.util.Random;
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
 
-
-public class MustafaOdev extends JFrame {
-
+public class TutorialMain extends JFrame {
 	private static final long serialVersionUID = 1L;
 
-	public MustafaOdev() {
-		super("Mustafa ERDOÐAN");
+	public TutorialMain() {
+		super("Tutorial");
 
 		getContentPane().setBackground(Color.WHITE);
 		setSize(550, 550);
@@ -85,8 +83,7 @@ public class MustafaOdev extends JFrame {
 		SwingUtilities.invokeLater(new Runnable() {
 			@Override
 			public void run() {
-				new MustafaOdev().setVisible(true);
-
+				new TutorialMain().setVisible(true);
 			}
 		});
 	}
